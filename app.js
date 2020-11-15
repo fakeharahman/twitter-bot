@@ -1,4 +1,16 @@
 // const config = require("./config");
+const token = process.env['ACCESS_TOKEN'];
+const secret = process.env['ACCESS_TOKEN_SECRET'];
+const consumer = process.env['CONSUMER_KEY'];
+const csecret = process.env['CONSUMER_SECRET'];
+
+const config={
+  'ACCESS_TOKEN':  token,
+  'ACCESS_TOKEN_SECRET': secret,
+  'CONSUMER_KEY': consumer,
+  'CONSUMER_SECRET': csecret  
+}
+
 const twit = require("twit");
 const T = new twit(config);
 // let createdAt=0;
