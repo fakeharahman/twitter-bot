@@ -1,7 +1,7 @@
-const config = require("./config");
+// const config = require("./config");
 const twit = require("twit");
 const T = new twit(config);
-let createdAt=0;
+// let createdAt=0;
 function retweet() {
   console.log("started");
   let params = {
