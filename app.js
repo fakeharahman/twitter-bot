@@ -5,10 +5,10 @@ const consumer = process.env['CONSUMER_KEY'];
 const csecret = process.env['CONSUMER_SECRET'];
 
 const config={
-  'ACCESS_TOKEN':  token,
-  'ACCESS_TOKEN_SECRET': secret,
-  'CONSUMER_KEY': consumer,
-  'CONSUMER_SECRET': csecret  
+  'access_token':  token,
+  'access_token_secret': secret,
+  'consumer_key': consumer,
+  'consumer_secret': csecret  
 }
 
 const twit = require("twit");
