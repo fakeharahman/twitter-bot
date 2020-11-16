@@ -49,4 +49,4 @@ function retweet() {
     }
   });
 }
-setInterval(retweet, 30000); //30000
+setInterval(retweet, 300000); //30000
